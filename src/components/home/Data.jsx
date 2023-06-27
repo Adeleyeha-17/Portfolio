@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 const Data = () => {
    return (
@@ -54,8 +55,8 @@ const Data = () => {
                  </svg>
        </h1>
  
-       <h3 className="home__subtitle">Frontend Developer</h3>
-       <p className="home__description">I am a proficient front-end developer in React and Next.js, I create engaging web apps with visually appealing interfaces. I excel in reusable component development, state management, and performance optimization.</p>
+       <h3 className="home__subtitle">Front-End React Developer</h3>
+       <p className="home__description">Hi, I'm Adeleye Habeeb. A passionate front-end React Developer based in Lagos, Nigeria 📍</p>
  
        <a href="#contact" className="button button--flex">Say Hello
        <svg

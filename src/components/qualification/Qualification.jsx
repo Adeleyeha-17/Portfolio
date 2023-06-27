@@ -1,9 +1,24 @@
 import "./qualification.css"
 
-
 const Qualification = () => {
   return (
-    <div>Qualification</div>
+    
+    <section className="qualification section">
+       <h2 className="section__title">Qualification</h2>
+       <span className="section__subtitle">My Journey</span>
+
+       <div className="qualification__container container">
+          <div className="qualification__tabs">
+            <div className="qualification__button button--flex">
+              <i className="uil uil-graduation-cap qualification__icon"></i>
+            </div>
+
+            <div className="qualification__button button--flex">
+              <i className="uil uil-qualification__icon"></i>
+            </div>
+          </div>
+       </div>
+    </section>
   )
 }
 
