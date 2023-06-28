@@ -51,7 +51,7 @@ const Portfolio = () => {
 
          <div className="portfolio__sections">
           <div className={toggle === 1 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
-            <div className="portfolio__data ">
+            <div className="portfolio__data">
             <div className="img__container" onMouseEnter={() => toggleVideo("atlas")} onMouseLeave={() => toggleVideo("atlas")}>
                 <img src={Atlas} alt="" className="img"/>
                 {videoVisible.atlas && <video src={Vid} autoPlay muted className="vid"></video>}
@@ -119,7 +119,7 @@ const Portfolio = () => {
 
             </div>
 
-            <div className="portfolio__data ">
+            <div className="portfolio__data">
             <div className="img__container" onMouseEnter={() => toggleVideo("eduford")} onMouseLeave={() => toggleVideo("eduford")}>
                 <img src={Eduford} alt="" className="img"/>
                 {videoVisible.eduford && <video src={Vid} autoPlay muted className="vid"></video>}
@@ -158,7 +158,7 @@ const Portfolio = () => {
                                 <span className="portfolio__line"></span>
                               </div> */}
               
-                            <div >
+                            <div>
                               <div>
                               <h3 className="portfolio__title"> GAME WEBSITE
                               </h3>
@@ -188,7 +188,7 @@ const Portfolio = () => {
                           </div>
               
 
-             <div className="portfolio__data ">
+             <div className="portfolio__data">
              <div className="img__container" onMouseEnter={() => toggleVideo("playstation")} onMouseLeave={() => toggleVideo("playstation")}>
 
                 <img src={Playstation} alt="" className="img"/>
