@@ -3,7 +3,8 @@
 const Data = () => {
    return (
     <div className="home__data">
-       <h1 className="home__title">Adeleye Habeeb
+       <h1 className="home__title">Front-End React <br /> 
+       Developer
        <svg
                    width="36"
                    height="36"
@@ -55,7 +56,6 @@ const Data = () => {
                  </svg>
        </h1>
  
-       <h3 className="home__subtitle">Front-End React Developer</h3>
        <p className="home__description">Hi, I'm Adeleye Habeeb. A passionate front-end React Developer based in Lagos, Nigeria 📍</p>
  
        <a href="#contact" className="button button--flex">Say Hello

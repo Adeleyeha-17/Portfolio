@@ -50,6 +50,9 @@
    font-size: var(--tiny-font-size);
 }
 
+.html {
+   color: #F06529;
+}
 /* Break Points */
 
 @media (max-width: 992px) {

@@ -44,7 +44,9 @@
    margin-bottom: var(--mb-2-5);
 }
 
-
+.about {
+   margin-bottom: var(--mb-2)
+}
 
 /* Break Points */
 
