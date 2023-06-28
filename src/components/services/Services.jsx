@@ -9,8 +9,7 @@ const Services = () => {
    }
   return (
    <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title about">Services</h2>
 
       <div className="services__container container grid">
          <div className="services__content">
@@ -28,9 +27,17 @@ const Services = () => {
                   <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                   <h3 className="services__modal-title">Web Development</h3>
-                  <p className="services__modal-description">Service with more than 2 years experience. Providing quality work to clients and companies.</p>
+                  <p className="services__modal-description">With over 2 years of experience, I specialize in crafting exceptional web solutions that help clients and companies achieve their digital goals.</p>
 
                   <ul className="services__modal-services grid">
+
+                  <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">
+                        Responsive Design
+                        </p>
+                     </li>
+
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
@@ -41,23 +48,10 @@ const Services = () => {
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Network Engineering
+                        Website maintenance and optimization
                         </p>
                      </li>
-
-                     <li className="services__modal-service">
-                        <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">
-                           I develop user interface
-                        </p>
-                     </li>
-
-                     <li className="services__modal-service">
-                        <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">
-                           Data Analysis
-                        </p>
-                     </li>
+                    
                   </ul>
                </div>
             </div>
@@ -78,34 +72,34 @@ const Services = () => {
                   <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                   <h3 className="services__modal-title">Network Engineer</h3>
-                  <p className="services__modal-description">Service with more than 2 years experience. Providing quality work to clients and companies.</p>
+                  <p className="services__modal-description">As a dedicated network engineer, I am committed to delivering high-quality services that ensure reliable connectivity, enhanced security, and optimized performance for clients and companies.</p>
 
                   <ul className="services__modal-services grid">
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Web Development
+                        Network Design and Architecture
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Network Engineering
+                        Network Implementation and Configuration
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           I develop user interface
+                        Network Monitoring and Troubleshooting
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Data Analysis
+                        Network Security
                         </p>
                      </li>
                   </ul>
@@ -115,8 +109,8 @@ const Services = () => {
 
          <div className="services__content">
             <div>
-               <i className="uil uil-edit services__icons"></i>
-               <h3 className="services__title">BI <br /> Engineer</h3>
+            <i className="uil uil-chart"></i>
+                           <h3 className="services__title">BI <br /> Engineer</h3>
             </div>
 
             <span className="services__button" onClick={() => toggleTab(3)}>
@@ -128,34 +122,34 @@ const Services = () => {
                   <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                   <h3 className="services__modal-title">Data Analysis</h3>
-                  <p className="services__modal-description">Service with more than 2 years experience. Providing quality work to clients and companies.</p>
+                  <p className="services__modal-description">I specialize in leveraging the capabilities of Power BI to transform raw data into actionable insights, empowering organizations to make informed and strategic decisions</p>
 
                   <ul className="services__modal-services grid">
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Web Development
+                        Data Modeling and Transformation
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Network Engineering
+                        Customized Dashboards and Reports
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           I develop user interface
+                        Data Integration and Connectivity
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Data Analysis
+                        Collaboration and Sharing
                         </p>
                      </li>
                   </ul>
@@ -165,8 +159,8 @@ const Services = () => {
 
          <div className="services__content">
             <div>
-               <i className="uil uil-edit services__icons"></i>
-               <h3 className="services__title">3D <br /> Animation</h3>
+            <i className="uil uil-presentation-play"></i>
+            <h3 className="services__title">3D <br /> Animation</h3>
             </div>
 
             <span className="services__button" onClick={() => toggleTab(4)}>
@@ -178,34 +172,27 @@ const Services = () => {
                   <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                   <h3 className="services__modal-title">3D Animation</h3>
-                  <p className="services__modal-description">Service with more than 2 years experience. Providing quality work to clients and companies.</p>
+                  <p className="services__modal-description">Services I provide as a 3D Animator specializing in Blender include:</p>
 
                   <ul className="services__modal-services grid">
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Web Development
+                        Character Animation
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           Network Engineering
+                        Visual Effects
                         </p>
                      </li>
 
                      <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
                         <p className="services__modal-info">
-                           I develop user interface
-                        </p>
-                     </li>
-
-                     <li className="services__modal-service">
-                        <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">
-                           Data Analysis
+                        Rendering and Post-Production
                         </p>
                      </li>
                   </ul>
