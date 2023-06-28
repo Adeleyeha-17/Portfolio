@@ -13,14 +13,14 @@ const Frontend = () => {
                 </div>
  
                 <div className="skills__data">
-                <i className='bx bxl-css3' ></i> 
+                <i className='bx bxl-css3 css'></i> 
                    <div>
                       <h3 className="skills__name">CSS</h3>
                    </div>
                 </div>
  
                 <div className="skills__data">
-                   <i className='bx bxl-javascript'></i>
+                   <i className='bx bxl-javascript javascript'></i>
  
                    <div>
                       <h3 className="skills__name">JavaScript</h3>
@@ -28,7 +28,7 @@ const Frontend = () => {
                 </div>
  
                 <div className="skills__data">
-                <i className='bx bxl-bootstrap' ></i> 
+                <i className='bx bxl-bootstrap bootstrap'></i> 
                    <div>
                       <h3 className="skills__name">Bootstrap</h3>
                    </div>
@@ -39,34 +39,35 @@ const Frontend = () => {
              <div className="skills__group">
  
                 <div className="skills__data">
-                <i className='bx bxl-tailwind-css' ></i> 
+                <i className='bx bxl-tailwind-css tailwind'></i> 
                    <div>
                       <h3 className="skills__name">Tailwind</h3>
                    </div>
                 </div>
  
                 <div className="skills__data">
-                <i className='bx bxl-react' ></i> 
+                <i className='bx bxl-react react'></i> 
                    <div>
                       <h3 className="skills__name">React</h3>
                    </div>
                 </div>
-             </div>
 
-             <div className="skills__data">
-             <i className='bx bx-git-branch' ></i> 
+                <div className="skills__data">
+             <i className='bx bx-git-branch git'></i> 
                    <div>
                       <h3 className="skills__name">Git</h3>
                    </div>
                 </div>
                       
              <div className="skills__data">
-             <i className='bx bxl-firebase' ></i>
+             <i className='bx bxl-firebase firebase'></i>
                <div>
                   <h3 className="skills__name">Firebase</h3>
-                  {/* <span className="skills__level">Basic</span> */}
                </div>
             </div>
+             </div>
+
+             
           </div>
      </div>
    )

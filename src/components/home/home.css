@@ -96,6 +96,14 @@
    animation: scroll 2s ease infinite;
 }
 
+.twitter {
+   color: #1DA1F2;
+}
+
+.linkedin {
+   color: #0A66C2;
+}
+
 @keyframes scroll { 
    0% {
       transform: translateY(0);

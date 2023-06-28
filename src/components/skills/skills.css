@@ -1,5 +1,5 @@
 .skills__container {
-   grid-template-columns: repeat(2, 350px);
+   grid-template-columns: 400px;
    column-gap: 3rem;
    justify-content: center;
 }
@@ -21,7 +21,7 @@
 .skills__box {
    display: flex;
    justify-content: center;
-   column-gap: 2.5rem;
+   column-gap: 4.5rem;
 }
 
 .skills__group {
@@ -52,6 +52,30 @@
 
 .html {
    color: #F06529;
+}
+
+.css {
+   color: #1572B6;
+}
+
+.javascript {
+   color: #F7DF1E;
+}
+
+.bootstrap {
+   color:  #7952b3;
+}
+
+.tailwind {
+   color:  #06B6D4;
+}
+
+.react {
+color: #61DAFB;
+}
+
+.firebase {
+   color: #FFA000;
 }
 /* Break Points */
 
