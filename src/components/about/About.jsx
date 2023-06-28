@@ -14,7 +14,7 @@ const About = () => {
         <Info />
 
         <p className="about__description">
-        I am a proficient front-end developer in React and Next.js, I create engaging web apps with visually appealing interfaces. I excel in reusable component development, state management, and performance optimization.
+        I am a proficient front-end developer in React and Next.js, I create engaging web apps with visually appealing interfaces with reusable component development, state management, and performance optimization.
         </p>
 
         <a download="" href={CV} className="button button--flex">
