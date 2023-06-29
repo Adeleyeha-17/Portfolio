@@ -11,12 +11,6 @@ import EdufordVid from "../../assets/vid/eduford1.mp4"
 import QuantumVid from "../../assets/vid/fitness1.mp4"
 import GamestoreVid from "../../assets/vid/gamestore1.mp4"
 import PlaystoreVid from "../../assets/vid/playstation.mp4"
-import NetworkImg1 from "../../assets/network/Networking1.jpg"
-import NetworkImg2 from "../../assets/network/Networking2.jpg"
-import NetworkImg3 from "../../assets/network/Networking3.jpg"
-import NetworkImg4 from "../../assets/network/Networking4.jpg"
-import NetworkImg5 from "../../assets/network/Networking5.jpg"
-import NetworkImg6 from "../../assets/network/Networking6.jpg"
 import PowerBI1 from "../../assets/bi1.png"
 import PowerBI2 from "../../assets/bi2.png"
 import PowerBI3 from "../../assets/bi3.png"
@@ -88,22 +82,11 @@ const Portfolio = () => {
                 </div>
                 
               </div>
-
-              {/* <div>
-                <span className="portfolio__rounder"></span>
-                <span className="portfolio__line"></span>
-              </div> */}
               
             </div>
             
             
               <div className="portfolio__data">
-              
-{/* 
-                <div>
-                  <span className="portfolio__rounder"></span>
-                  <span className="portfolio__line"></span>
-                </div> */}
 
               <div >
                 <div>
@@ -243,7 +226,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg1} className="net__img" />
+                <img src="./networking1.jpg" className="net__img" />
                 
               </div>
               
@@ -254,7 +237,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg2} className="net__img" />
+                <img src="./networking2.jpg" className="net__img" />
                
               </div>
               
@@ -266,7 +249,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg3} className="net__img" />
+                <img src="./networking3.jpg" className="net__img" />
                 
               </div>
               
@@ -277,7 +260,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg4} className="net__img" />
+                <img src="./networking4.jpg" className="net__img" />
                 
               </div>
               
@@ -288,7 +271,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg5} className="net__img" />
+                <img src="./networking5.jpg" className="net__img" />
                 
               </div>
               
@@ -299,7 +282,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg6} className="net__img" />
+                <img src="./networking6.jpg" className="net__img" />
                 
               </div>
               
@@ -355,19 +338,6 @@ const Portfolio = () => {
               <div>
 
                 <img src={PowerBI4} className="img" />
-
-                <p>lalalaalal</p>
-                <span className="portfolio__subtitle">Spain - Institure</span>
-              </div>
-              
-              
-            </div>
-              
-            <div className="portfolio__data">
-              
-              <div>
-
-                <img src={NetworkImg5} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
