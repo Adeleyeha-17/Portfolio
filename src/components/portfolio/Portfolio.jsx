@@ -220,8 +220,9 @@ const Portfolio = () => {
 
 
             <div className={toggle === 2 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
-            
+                <h2 className="portfolio__subtitle"> NETWORKING PROJECTS</h2>
               <div className="net">
+                
               <div className="portfolio__data">
               
               <div>
@@ -292,15 +293,15 @@ const Portfolio = () => {
             </div>
 
             <div className={toggle === 3 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
+
+              <h2 className="portfolio__subtitle">BUSINESS INTELLIGENCE DASHBOARD</h2>
             
-              <div className="portfolio__data">
+              <div className="bi container">
+                <div className="portfolio__data">
               
               <div>
 
-                <img src={PowerBI1} className="img" />
-
-                <p>lalalaalal</p>
-                <span className="portfolio__subtitle">Spain - Institure</span>
+                <img src={PowerBI1} className="bi__img" />
               </div>
               
               
@@ -310,10 +311,8 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={PowerBI2} className="img" />
-
-                <p>lalalaalal</p>
-                <span className="portfolio__subtitle">Spain - Institure</span>
+                <img src={PowerBI2} className="bi__img" />
+                
               </div>
               
               
@@ -324,10 +323,8 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={PowerBI3} className="img" />
-
-                <p>lalalaalal</p>
-                <span className="portfolio__subtitle">Spain - Institure</span>
+                <img src={PowerBI3} className="bi__img" />
+               
               </div>
               
               
@@ -337,14 +334,12 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={PowerBI4} className="img" />
-
-                <p>lalalaalal</p>
-                <span className="portfolio__subtitle">Spain - Institure</span>
+                <img src={PowerBI4} className="bi__img" />
               </div>
               
               
             </div>
+              </div>
             </div>
               
             </div>
