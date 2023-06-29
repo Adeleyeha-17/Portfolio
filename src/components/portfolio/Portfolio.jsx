@@ -11,6 +11,11 @@ import EdufordVid from "../../assets/vid/eduford1.mp4"
 import QuantumVid from "../../assets/vid/fitness1.mp4"
 import GamestoreVid from "../../assets/vid/gamestore1.mp4"
 import PlaystoreVid from "../../assets/vid/playstation.mp4"
+import NetworkImg1 from "../../assets/Networking1.jpg"
+import NetworkImg2 from "../../assets/Networking2.jpg"
+import NetworkImg3 from "../../assets/Networking3.jpg"
+import NetworkImg4 from "../../assets/Networking4.jpg"
+import NetworkImg5 from "../../assets/Networking5.jpg"
 
 const Portfolio = () => {
 
@@ -58,7 +63,7 @@ const Portfolio = () => {
             <div className="portfolio__data">
             <div className="img__container" onMouseEnter={() => toggleVideo("atlas")} onMouseLeave={() => toggleVideo("atlas")}>
                 <img src={Atlas} alt="" className="img"/>
-                {videoVisible.atlas && <video src={AtlasVid} autoPlay muted className="vid"></video>}
+                {videoVisible.atlas && <video src={AtlasVid} autoPlay muted loop className="vid"></video>}
                 </div>
 
               <div>
@@ -69,7 +74,7 @@ const Portfolio = () => {
                 <div className="gap">
                 <i className='bx bxl-html5 html'></i>                
                 <i className='bx bxl-css3 css'></i>
-                                <i className='bx bxl-javascript javascript'></i>
+                <i className='bx bxl-javascript javascript'></i>
                 </div>
 
                 <div className="link">
@@ -126,7 +131,7 @@ const Portfolio = () => {
             <div className="portfolio__data">
             <div className="img__container" onMouseEnter={() => toggleVideo("eduford")} onMouseLeave={() => toggleVideo("eduford")}>
                 <img src={Eduford} alt="" className="img"/>
-                {videoVisible.eduford && <video src={EdufordVid} autoPlay muted className="vid"></video>}
+                {videoVisible.eduford && <video src={EdufordVid} autoPlay muted loop className="vid"></video>}
                 </div>
 
               <div>
@@ -185,7 +190,7 @@ const Portfolio = () => {
               
                               <div className="img__container" onMouseEnter={() => toggleVideo("game")} onMouseLeave={() => toggleVideo("game")}>
                               <img src={Game} alt="" className="img"/>
-                              {videoVisible.game && <video src={GamestoreVid} autoPlay muted className="vid"></video>}
+                              {videoVisible.game && <video src={GamestoreVid} autoPlay muted loop className="vid"></video>}
                               </div>
                             
               
@@ -196,7 +201,7 @@ const Portfolio = () => {
              <div className="img__container" onMouseEnter={() => toggleVideo("playstation")} onMouseLeave={() => toggleVideo("playstation")}>
 
                 <img src={Playstation} alt="" className="img"/>
-                {videoVisible.playstation && <video src={PlaystoreVid} autoPlay muted className="vid"></video>}
+                {videoVisible.playstation && <video src={PlaystoreVid} autoPlay muted loop className="vid"></video>}
                 </div>
 
               <div>
@@ -227,88 +232,77 @@ const Portfolio = () => {
 
 
             <div className={toggle === 2 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
-            <div className="portfolio__data">
-
-              <div>
-                <h3 className="portfolio__title"> ATLAS BANKING
-                </h3>
-                <span className="portfolio__subtitle">Spain - Institure</span>
-                <div className="portfolio__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="portfolio__rounder"></span>
-                <span className="portfolio__line"></span>
-              </div>
-              
-            </div>
-            
             
               <div className="portfolio__data">
-              <div></div>
-
-                <div>
-                  <span className="portfolio__rounder"></span>
-                  <span className="portfolio__line"></span>
-                </div>
-
+              
               <div>
-                <h3 className="portfolio__title"> QuantumFitness
-                </h3>
+
+                <img src={NetworkImg1} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
-                <div className="portfolio__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
-                </div>
               </div>
               
               
             </div>
 
             <div className="portfolio__data">
-
+              
               <div>
-                <h3 className="portfolio__title"> Web Design
-                </h3>
+
+                <img src={NetworkImg2} className="img" />
+
+                <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
-                <div className="portfolio__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
-                </div>
               </div>
-
-              <div>
-                <span className="portfolio__rounder"></span>
-                <span className="portfolio__line"></span>
-              </div>
+              
               
             </div>
             
             
-              <div className="portfolio__data">
-              <div></div>
-
-                <div>
-                  <span className="portfolio__rounder"></span>
-                  <span className="portfolio__line"></span>
-                </div>
-
+            <div className="portfolio__data">
+              
               <div>
-                <h3 className="portfolio__title"> Web Design
-                </h3>
+
+                <img src={NetworkImg3} className="img" />
+
+                <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
-                <div className="portfolio__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
-                </div>
               </div>
               
+              
+            </div>
+
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg4} className="img" />
+
+                <p>lalalaalal</p>
+                <span className="portfolio__subtitle">Spain - Institure</span>
+              </div>
+              
+              
+            </div>
+              
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg5} className="img" />
+
+                <p>lalalaalal</p>
+                <span className="portfolio__subtitle">Spain - Institure</span>
+              </div>
+              
+              
+            </div>
             </div>
               
             </div>
           </div>
-         </div>
+         
       
 
     </section>
