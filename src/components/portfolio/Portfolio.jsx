@@ -16,6 +16,11 @@ import NetworkImg2 from "../../assets/Networking2.jpg"
 import NetworkImg3 from "../../assets/Networking3.jpg"
 import NetworkImg4 from "../../assets/Networking4.jpg"
 import NetworkImg5 from "../../assets/Networking5.jpg"
+import NetworkImg6 from "../../assets/Networking6.jpg"
+import PowerBI1 from "../../assets/bi1.png"
+import PowerBI2 from "../../assets/bi2.png"
+import PowerBI3 from "../../assets/bi3.png"
+import PowerBI4 from "../../assets/bi4.png"
 
 const Portfolio = () => {
 
@@ -233,11 +238,83 @@ const Portfolio = () => {
 
             <div className={toggle === 2 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
             
+              <div className="net">
               <div className="portfolio__data">
               
               <div>
 
-                <img src={NetworkImg1} className="img" />
+                <img src={NetworkImg1} className="net__img" />
+                
+              </div>
+              
+              
+            </div>
+
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg2} className="net__img" />
+               
+              </div>
+              
+              
+            </div>
+            
+            
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg3} className="net__img" />
+                
+              </div>
+              
+              
+            </div>
+
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg4} className="net__img" />
+                
+              </div>
+              
+              
+            </div>
+              
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg5} className="net__img" />
+                
+              </div>
+              
+              
+            </div>
+
+            <div className="portfolio__data">
+              
+              <div>
+
+                <img src={NetworkImg6} className="net__img" />
+                
+              </div>
+              
+              
+            </div>
+              </div>
+            </div>
+
+            <div className={toggle === 3 ? "portfolio__content portfolio__content-active" : "portfolio__content"}>
+            
+              <div className="portfolio__data">
+              
+              <div>
+
+                <img src={PowerBI1} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
@@ -250,7 +327,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg2} className="img" />
+                <img src={PowerBI2} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
@@ -264,7 +341,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg3} className="img" />
+                <img src={PowerBI3} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
@@ -277,7 +354,7 @@ const Portfolio = () => {
               
               <div>
 
-                <img src={NetworkImg4} className="img" />
+                <img src={PowerBI4} className="img" />
 
                 <p>lalalaalal</p>
                 <span className="portfolio__subtitle">Spain - Institure</span>
