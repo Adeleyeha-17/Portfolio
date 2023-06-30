@@ -296,7 +296,7 @@ const Portfolio = () => {
 
               <h2 className="portfolio__subtitle">BUSINESS INTELLIGENCE DASHBOARD</h2>
             
-              <div className="bi container">
+              <div className="bi container section">
                 <div className="portfolio__data">
               
               <div>
