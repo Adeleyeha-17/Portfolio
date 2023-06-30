@@ -33,7 +33,19 @@ const Contact = () => {
                         08159840013
                      </span>
 
-                     <a href="https://api.whatsapp.com/send?phone=08159840013&text=Hello" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                     <a href="https://pi.whatsapp.com/send?phone=08159840013&text=Hello" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                  
+               </div>
+
+               <div className="contact__card">
+                  <i className="bx bxl-twitter contact__card-icon"></i>
+                  
+                  <h3 className="contact__card-title">Twitter</h3>
+                     <span className="contact__card-data">
+                        @user
+                     </span>
+
+                     <a href="#contact" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   
                </div>
                
@@ -56,7 +68,7 @@ const Contact = () => {
                   <input type="email" name="email" className="contact__form-input" placeholder="Insert your email"/>
                </div>
 
-               <div className="contact__form-div">
+               <div className="contact__form-div contact__form-area">
                   <label htmlFor="project" className="contact__form-tag">Project</label>
                   <textarea name="project" cols={30} rows={10} className="contact__form-input" placeholder="write your project"></textarea>
                </div>
