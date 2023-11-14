@@ -46,7 +46,7 @@ const Contact = () => {
                         08159840013
                      </span>
 
-                     <a href="https://pi.whatsapp.com/send?phone=08159840013&text=Hello" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                     <a href="https://api.whatsapp.com/send?phone=08159840013&text=Hello" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                   
                </div>
 
