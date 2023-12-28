@@ -1,7 +1,8 @@
 .services__container {
-   grid-template-columns: repeat(4, 1fr);
-   justify-content: center;
+   grid-template-columns: repeat(2, 1fr);
    column-gap: 1.8rem;
+   display: flex;
+   align-items: center;
 }
 
 .services__content {
@@ -9,7 +10,7 @@
    border: 1px solid rgba(0, 0, 0, 0.1);
    background-color: var(--container-color);
    padding: 4rem 0 2rem 2.5rem;
-   border-radius: 1.2rem;
+   border-radius: 1.2rem; 
 }
 
 .services__icon {
@@ -125,7 +126,7 @@
 
 @media (max-width: 992px) {
   .services__container {
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(2, 1fr);
   }
  }
  

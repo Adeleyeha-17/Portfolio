@@ -32,8 +32,6 @@
 
 .portfolio__sections {
    display: grid;
-   grid-template-columns: max-content;
-   justify-content: center;
    align-items: center;
 }
 
@@ -47,7 +45,7 @@
 
 .portfolio__data {
    display: grid;
-   grid-template-columns: 1fr max-content;
+   grid-template-columns: repeat(2, 1fr);
    column-gap: 5rem;
    margin-bottom: var(--mb-3);
 }
@@ -107,15 +105,15 @@
 
 .img__container {
    position: relative;
-   width: 350px;
-   height: 270px;
+   width: max-content;
+   height: max-content;
 }
 
 .img {
    width: 360px;
-   height: 270px;
+   height: 300px;
    border-radius: 0.2rem;
-   object-fit: cover;
+   object-fit: contain;
    position: relative;
 }
 
@@ -146,21 +144,8 @@
    text-align: center;
 }
 
-.bi {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   position: relative;
-   left: 2.2rem;
-}
-
-.bi__img {
-   width: auto;
-   height: 270px;
-   border-radius: 1.2rem;
-}
-
 .text {
-   max-width: 300px;
+   max-width: 370px;
    margin-bottom: var(--mb-1);
    margin-top: 6px;
 }
@@ -171,6 +156,11 @@
    .portfolio__container {
       margin-left: auto;
       margin-right: auto;
+   }
+
+   .link {
+      display: flex;
+      gap: 7rem
    }
  
  }
@@ -184,18 +174,19 @@
    
    .portfolio__data {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2,1fr);
       column-gap: 5rem;
    }
    
    .img__container {
-      width: 220px;
-      height: 160px;
+      width: 300px;
+      height: 300px;
    }
    
    .img {
-      width: 220px;
-      height: 160px;
+      width: 300px;
+      object-fit: contain;
+      height: 300px;
       order: 1;
    }
 
@@ -212,19 +203,6 @@
    .vid {
       width: 220px;
       height: 160px;
-   }
-   
-
-   .bi {
-      display: grid;
-      grid-template-columns: 1fr;
-      left: 2.2rem;
-   }
-   
-   .bi__img {
-      width: auto;
-      height: 270px;
-      border-radius: 1.2rem;
    }
 
    .portfolio__sections {
@@ -287,18 +265,6 @@
    height: 160px;
 }
 
-
-.bi {
-   display: grid;
-   grid-template-columns: 1fr;
-   left: 0;
-}
-
-.bi__img {
-   width: auto;
-   height: 200px;
-   border-radius: 1.2rem;
-}
 .portfolio__sections {
    grid-template-columns: 1fr;
 }
