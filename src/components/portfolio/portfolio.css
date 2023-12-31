@@ -121,6 +121,7 @@
    width: 300px;
    height: auto;
    border-radius: 0.2rem;
+   object-fit: contain;
   position: relative;
   left: 2.3rem;
 }

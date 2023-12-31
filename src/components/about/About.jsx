@@ -1,5 +1,5 @@
 import "./about.css"
-import CV from "../../assets/Resume.pdf"
+//import CV from "../../assets/Resume.pdf"//
 import AboutImg from "../../assets/Eden.jpg"
 import Info from "./Info"
 
@@ -17,7 +17,7 @@ const About = () => {
         I am a proficient front-end developer in React and Next.js, I create engaging web apps with visually appealing interfaces with reusable component development, state management, and performance optimization.
         </p>
 
-        <a download="" href={CV} className="button button--flex">
+        <a download="" href="" className="button button--flex">
           Resume
           <svg
                 className="button__icon"

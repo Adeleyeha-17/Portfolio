@@ -2,10 +2,11 @@
 import { useState } from "react"
 import "./portfolio.css"
 import Atlas from "../../assets/atlas.jpeg"
-import Quantum from "../../assets/fitness.png"
+import Leadwinn from "../../assets/leadwinn.png"
 import Eduford from "../../assets/university.jpeg"
 import Game from "../../assets/game.jpeg"
-import Playstation from "../../assets/playstation.jpeg"
+import Realtor from "../../assets/realtor.png"
+import Vivid from "../../assets/vivid.png"
 
 const Portfolio = () => {
 
@@ -31,6 +32,103 @@ const Portfolio = () => {
 
         <div className="portfolio__sections">
           <div className={toggle === 1 ? "portfolio__content-active" : "portfolio__content"}>
+          <div className="portfolio__data">
+              <div className="img__container">
+                <img src={Leadwinn} alt="" className="img" />
+              </div>
+
+              <div >
+                <div>
+                  <h3 className="portfolio__title"> Leadwinn Academy
+                  </h3>
+
+                  <p className="text">Leadwinn Academy is a tech-focused educational platform that aims to empower students and tech enthusiasts with comprehensive knowledge and skills in various areas of technology. The platform covers a wide range of topics, starting from the fundamentals of programming and web development to advanced and cutting-edge technologies. </p>
+                  <div className="gap">
+                    <i className='bx bxl-tailwind-css tailwind'></i>
+                    <i className='bx bxl-react react'></i>
+                    <i className='bx bxl-typescript typescript'></i>
+                    <i className='bx bxl-firebase firebase'></i>
+                  </div>
+
+                  <div className="link">
+                    <a href="https://github.com/Adeleyeha-17/Leadwinn-Academy" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
+                    <a href="https://leadwinnacademy.netlify.app/" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            
+            <div className="portfolio__data">
+              <div className="img__container">
+
+                <img src={Realtor} alt="" className="img" />
+              </div>
+
+              <div>
+                <h3 className="portfolio__title"> Realtor App
+                </h3>
+
+                <p className="text">Welcome to the Realtor App – Your Ultimate Real Estate Solution!
+
+Discover the easiest way to sell your property or find your dream home with our user-friendly Realtor App website. Our platform empowers users to effortlessly upload pictures of their houses, creating a visually appealing listing that attracts potential buyers.</p>
+                <div className="gap">
+                    <i className='bx bxl-tailwind-css tailwind'></i>
+                <i className='bx bxl-react react'></i>
+                  <i className='bx bxl-javascript javascript'></i>
+                    <i className='bx bxl-firebase firebase'></i>
+
+                </div>
+
+                <div className="link">
+                  <a href="https://github.com/Adeleyeha-17/Realtor-App" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
+                  <a href="https://realtorappreact.netlify.app" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
+                </div>
+
+              </div>
+
+              {/* <div>
+                <span className="portfolio__rounder"></span>
+                <span className="portfolio__line"></span>
+              </div> */}
+
+            </div>
+
+            
+            <div className="portfolio__data">
+              <div className="img__container">
+
+                <img src={Vivid} alt="" className="img" />
+              </div>
+
+              <div>
+                <h3 className="portfolio__title"> VividVisage
+                </h3>
+
+                <p className="text">Welcome to VividVisage – Your Exquisite Beauty Haven!
+
+Indulge in the world of beauty and self-expression with VividVisage, your premier destination for luxurious cosmetics and skincare essentials. At VividVisage, we believe that your face tells a unique story, and we are here to provide you with the finest tools to express yourself through the art of makeup</p>
+                <div className="gap">
+                    <i className='bx bxl-tailwind-css tailwind'></i>
+                <i className='bx bxl-react react'></i>
+                  <i className='bx bxl-javascript javascript'></i>
+                </div>
+
+                <div className="link">
+                  <a href="https://github.com/Adeleyeha-17/E-commerce" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
+                  <a href="https://vividvisage.netlify.app" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
+                </div>
+
+              </div>
+
+              {/* <div>
+                <span className="portfolio__rounder"></span>
+                <span className="portfolio__line"></span>
+              </div> */}
+
+            </div>
+            
             <div className="portfolio__data">
               <div className="img__container">
                 <img src={Atlas} alt="" className="img" />
@@ -57,31 +155,7 @@ const Portfolio = () => {
             </div>
 
 
-            <div className="portfolio__data">
-              <div className="img__container">
-                <img src={Quantum} alt="" className="img" />
-              </div>
-
-              <div >
-                <div>
-                  <h3 className="portfolio__title"> QUANTUM FITNESS
-                  </h3>
-
-                  <p className="text">Quantum Fitness is a fitness club, dedicated to helping you achieve your health and wellness goals. User can browse through QFitness state-of-the-art facilities, expert trainers, and a supportive community to keep you motivated and engaged through the webstite. Whether you are looking to lose weight, build muscle, or improve overall fitness, QFitness has the resources and expertise to guide you on your fitness journey. </p>
-                  <div className="link">
-                    <i className='bx bxl-react react'></i>
-                    <i className='bx bxl-css3 css'></i>
-                  </div>
-
-                  <div className="link">
-                    <a href="https://github.com/Adeleyeha-17/Fitness-Gym" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
-                    <a href="https://quantum-fitness-club.netlify.app/" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
+          
 
             <div className="portfolio__data">
               <div className="img__container">
@@ -94,8 +168,8 @@ const Portfolio = () => {
 
                 <p className="text">Eduford website provides a comprehensive platform for students, faculty, and staff to access academic resources, connect with peers, and stay informed about campus events. From exploring degree programs to accessing course materials, Eduford is designed to streamline your educational journey.</p>
                 <div className="link">
-                  <i className='bx bxl-react react'></i>
                   <i className='bx bxl-css3 css'></i>
+                  <i className='bx bxl-react react'></i>
                 </div>
 
                 <div className="link">
@@ -151,36 +225,6 @@ const Portfolio = () => {
             </div>
 
 
-            <div className="portfolio__data">
-              <div className="img__container">
-
-                <img src={Playstation} alt="" className="img" />
-              </div>
-
-              <div>
-                <h3 className="portfolio__title"> PLAYSTATION WEBSITE
-                </h3>
-
-                <p className="text">The PlayStation website is your gateway to a world of immersive gaming experiences. Stay updated on the latest PlayStation console releases, accessories, and exclusive features. Connect with a vibrant gaming community, join online multiplayer matches, and compete against players worldwide.</p>
-                <div className="gap">
-                  <i className='bx bxl-html5 html'></i>
-                  <i className='bx bxl-css3 css'></i>
-                  <i className='bx bxl-javascript javascript'></i>
-                </div>
-
-                <div className="link">
-                  <a href="https://github.com/Adeleyeha-17/Playstation-Website" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
-                  <a href="https://playstation-website.netlify.app" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
-                </div>
-
-              </div>
-
-              {/* <div>
-                <span className="portfolio__rounder"></span>
-                <span className="portfolio__line"></span>
-              </div> */}
-
-            </div>
           </div>
 
 

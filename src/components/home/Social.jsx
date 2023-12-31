@@ -2,7 +2,7 @@
 const Social = () => {
    return (
      <div className="home__social">
-       <a href="https://twitter.com" className="home__social-icon" target="_blank" rel="noreferrer">
+       <a href="https://twitter.com/Adeleyeha_17" className="home__social-icon" target="_blank" rel="noreferrer">
        <i className="uil uil-twitter twitter"></i>      
        </a>
  

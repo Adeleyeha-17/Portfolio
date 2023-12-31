@@ -21,7 +21,7 @@ const Footer = () => {
          </ul>
 
          <div className="footer__social">
-         <a href="https://twitter.com" className="footer__social-link" target="_blank" rel="noreferrer">
+         <a href="https://twitter.com/Adeleyeha_17" className="footer__social-link" target="_blank" rel="noreferrer">
        <i className="uil uil-twitter twitter"></i>      
        </a>
  

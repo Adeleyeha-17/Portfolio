@@ -55,7 +55,7 @@ const Contact = () => {
                   
                   <h3 className="contact__card-title">Twitter</h3>
                      <span className="contact__card-data">
-                        @user
+                        @Adeleyeha-17
                      </span>
 
                      <a href="#contact" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
