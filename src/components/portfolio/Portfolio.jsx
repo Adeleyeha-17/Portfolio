@@ -116,7 +116,7 @@ Indulge in the world of beauty and self-expression with VividVisage, your premie
                 </div>
 
                 <div className="link">
-                  <a href="https://github.com/Adeleyeha-17/E-commerce" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
+                  <a href="https://github.com/Adeleyeha-17/vividvisage" className="portfolio__subtitle" target="_blank">Code  <i className="uil uil-github-alt"></i> </a>
                   <a href="https://vividvisage.netlify.app" className="portfolio__subtitle" target="_blank">Live Demo <i className="uil uil-expand-from-corner icon"></i></a>
                 </div>
 
